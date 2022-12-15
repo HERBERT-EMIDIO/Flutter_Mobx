@@ -5,6 +5,13 @@ class EntradaPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+      ),
+      appBar: AppBar(
+        title: const Text("chamaaa!!"),
+      ),
+    );
   }
 }
